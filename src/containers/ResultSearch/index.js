@@ -7,12 +7,6 @@ import { fetchItems } from '../../redux/actions/searchItemsActions.js';
 
 class ResultSearch extends Component {
 
-  componentWillMount() {
-    let query = this.props.location.query.search
-    console.log('query', query)
-    this.props.fetchItems(query);
-  }
-
   handleItem(objects) {
     if (objects.items) {
       return objects.items.data.results.map((element, index) => {

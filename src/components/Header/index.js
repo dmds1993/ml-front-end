@@ -13,7 +13,6 @@ class Header extends Component {
     this.state = {
       search: ''
     };
-    console.log(this.props)
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }

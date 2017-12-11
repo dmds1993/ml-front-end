@@ -11,7 +11,6 @@ class Detail extends Component {
   }
 
   handleDetail(object) {
-    console.log('objectobject', object)
     if (object) {
       return (
         <div className="item-in">
